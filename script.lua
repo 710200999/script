@@ -2,13 +2,12 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/HixBox-_-Blo
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification.lua")() -- notification
 
-print("status : 🟢")
-
-
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/Key/refs/heads/main/StatusHixBox.lua")()
 
 --[[                                      
 /usr/local/lua-5.3.5/lua53: script.lua:1: attempt to index a nil value (global 'game')
 stack traceback:
 	script.lua:1: in main chunk
 	[C]: in ?
+
 ]]--
